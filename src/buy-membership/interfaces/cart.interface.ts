@@ -1,0 +1,3 @@
+interface Cart {
+  amount: string;
+}
