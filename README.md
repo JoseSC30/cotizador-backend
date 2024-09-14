@@ -13,7 +13,7 @@ npm install
 
 3. Configurar las variables de entorno tomando la plantilla `.env.template` y clonar a un archivo `.env`
 4. Cambiar las variables de entorno
-5. Levantar la base de datos
+5. Crear directamente la base de datos en postgresql o si no, hacerlo ejecutando el siguiente comando docker
 
 ```
 docker-compose up -d
@@ -25,7 +25,7 @@ docker-compose up -d
 npm run start:dev
 ```
 
-7. Ejecutar SEED (Cargar dato de moneda) OBLIGATORIO!!
+7. Ejecutar SEED (Para generar la moneda y usuarios por defecto) OBLIGATORIO!!
 
 ```
 http://localhost:3000/api/seed

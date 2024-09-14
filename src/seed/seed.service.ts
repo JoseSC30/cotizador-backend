@@ -15,7 +15,7 @@ export class SeedService {
 
   async runSeed() {
     // await this.deleteTables();
-    // await this.insertUsers();
+    await this.insertUsers();
     this.insertCurrency();
     return 'SEED EXECUTED';
   }
