@@ -94,11 +94,7 @@ import {
                       }
                   }
               ],
-              "materiales_construccion": [
-                  {"nombre": "Ladrillo Cerámico de 6H tabique", "cantidad": 100, "precio_unitario": 1.20, "total": 120.00},
-                  {"nombre": "Baldosas Cerámicas", "cantidad": 40, "precio_unitario": 35.00, "total": 1400.00},
-                  {"nombre": "Cemento", "cantidad": 50, "precio_unitario": 50.00, "total": 2500.00}
-              ],
+             
               "mano_de_obra_requerida": [
                   {"nombre": "Maestro Albañil", "dias": 10, "precio_dia": 150.00, "total": 1500.00},
                   {"nombre": "Ayudante", "dias": 15, "precio_dia": 100.00, "total": 1500.00},
@@ -106,118 +102,28 @@ import {
                   {"nombre": "Electricista", "dias": 3, "precio_dia": 100.00, "total": 300.00}
               ],
               "instalaciones": [
-                  {"nombre": "Tubería de PVC de 1/2 pulg", "cantidad": 20, "precio_unitario": 4.00, "total": 80.00},
-                  {"nombre": "Cable eléctrico", "cantidad": 100, "precio_unitario": 2.00, "total": 200.00}
-              ],
+                 {"nombre": "Tablero de MDF de 18 mm", "cantidad": 5, "precio_unitario": 30.00, "total": 150.00},
+                 {"nombre": "Bisagras de cazoleta", "cantidad": 10, "precio_unitario": 2.50, "total": 25.00},
+                 {"nombre": "Tornillos autorroscantes", "cantidad": 100, "precio_unitario": 0.10, "total": 10.00},
+                 {"nombre": "Pintura para madera (1 galón)", "cantidad": 1, "precio_unitario": 20.00, "total": 20.00},
+                 {"nombre": "Tiradores de cajón", "cantidad": 6, "precio_unitario": 5.00, "total": 30.00},
+                 {"nombre": "Rieles telescópicos para cajones", "cantidad": 3, "precio_unitario": 12.00, "total": 36.00},
+                 {"nombre": "Pegamento para madera", "cantidad": 1, "precio_unitario": 8.00, "total": 8.00}
+                ],
+
               "costos_estimados": {
                   "materiales": 4200.00,
                   "mano_de_obra": 3800.00,
                   "instalaciones": 280.00
               },
               "total_final": 8280.00,
-              "nota": "Este es un presupuesto estimado y podría variar dependiendo de factores adicionales como transporte de materiales, imprevistos en la construcción, etc. Se recomienda un 10% de contingencia sobre el presupuesto total."
+              "nota": "Este es un presupuesto estimado para la fabricación de muebles y podría variar dependiendo de factores adicionales como transporte de materiales, cambios en el diseño, etc. Se recomienda un 10% de contingencia sobre el presupuesto total."
                },
   
               te estoy pasando los precios para tomar en cuenta en bolivianos (BOB) y que incluya la mano de obra, ademas que el punto de los precios es decimal y tiene que mostrar el total igual: 
     
                   {
-        "accesorios_hidraulicos": [
-            {
-                "Chicotillo plástico": "Codo de FoGo de 1\/2 pulg",
-                "pza": "pza",
-                "20.00": "3.70"
-            },
-            {
-                "Chicotillo plástico": "Codo de PVC desague de 1 1\/2 pulg",
-                "pza": "pza",
-                "20.00": "3.00"
-            },
-            {
-                "Chicotillo plástico": "Cupla de FoGo de 1\/2 pulg",
-                "pza": "pza",
-                "20.00": "3.00"
-            },
-            {
-                "Chicotillo plástico": "Ducha eléctrica",
-                "pza": "pza",
-                "20.00": "90.00"
-            },
-            {
-                "Chicotillo plástico": "Ducha sanitaria", 
-                "pza": "pza",
-                "20.00": "280.00"
-            },
-            {
-                "Chicotillo plástico": "Llave de paso de 1 \"",
-                "pza": "pza",
-                "20.00": "115.00"
-            },
-            {
-                "Chicotillo plástico": "Llave de paso de 1 1\/2\"",
-                "pza": "pza",
-                "20.00": "228.00"
-            },
-            {
-                "Chicotillo plástico": "Llave de paso de 1\/2 pulg",
-                "pza": "pza",
-                "20.00": "48.00"
-            },
-            {
-                "Chicotillo plástico": "Llave de paso de 1\/2 pulg",
-                "pza": "pza",
-                "20.00": "48.00"
-            },
-            {
-                "Chicotillo plástico": "Llave de paso de 2 \"",
-                "pza": "pza",
-                "20.00": "315.00"
-            },
-            {
-                "Chicotillo plástico": "Llave de paso de 3\/4 pulg",
-                "pza": "pza",
-                "20.00": "65.00"
-            },
-            {
-                "Chicotillo plástico": "Niple de Fe de 1\/2 pulg",
-                "pza": "pza",
-                "20.00": "3.90"
-            },
-            {
-                "Chicotillo plástico": "Reducción de Fe 3\/4x1\/2 pulg",
-                "pza": "pza",
-                "20.00": "4.00"
-            },
-            {
-                "Chicotillo plástico": "Tee galvanizada 1 1\/2\"",
-                "pza": "pza",
-                "20.00": "33.00"
-            },
-            {
-                "Chicotillo plástico": "Tee galvanizada 2\"",
-                "pza": "pza",
-                "20.00": "45.00"
-            },
-            {
-                "Chicotillo plástico": "Teflón 3\/4 pulg",
-                "pza": "pza",
-                "20.00": "3.00"
-            },
-            {
-                "Chicotillo plástico": "Unión patente de Fe de 1\/2 pulg",
-                "pza": "pza",
-                "20.00": "14.50"
-            },
-            {
-                "Chicotillo plástico": "Unión patente gavanizada 2\"",
-                "pza": "pza",
-                "20.00": "75.00"
-            },
-            {
-                "Chicotillo plástico": "Válvula de cortina de 1 1\/2 pulg",
-                "pza": "pza",
-                "20.00": "228.00"
-            }
-        ],
+        
         "accesorios_sanitarios": [
             {
                 "Pegamento (clefa)": "Pegante para PVC",
@@ -332,48 +238,57 @@ import {
                 "8.50": "41.00"
             }
         ],
-        "aglomerantes": [
-            {
-                "Alquitran": "Cal de blanqueo",
-                "kg": "kg",
-                "12.60": "0.90"
-            },
-            {
-                "Alquitran": "Cemento blanco",
-                "kg": "kg",
-                "12.60": "7.00"
-            },
-            {
-                "Alquitran": "Cemento cola",
-                "kg": "bolsa",
-                "12.60": "25.00"
-            },
-            {
-                "Alquitran": "Cemento cola (para porcelanato)",
-                "kg": "kg",
-                "12.60": "29.00"
-            },
-            {
-                "Alquitran": "Cemento portland IP-30",
-                "kg": "bolsa",
-                "12.60": "60.00"
-            },
-            {
-                "Alquitran": "Estuco",
-                "kg": "bolsa",
-                "12.60": "15.00"
-            },
-            {
-                "Alquitran": "Yeso",
-                "kg": "kg",
-                "12.60": "0.70"
-            },
-            {
-                "Alquitran": "cemento",
-                "kg": "bolsa",
-                "12.60": "50.00"
-            }
-        ],
+         "materiales_muebles": [
+        {
+         "nombre": "Pegamento para madera",
+            "unidad": "litro",
+            "cantidad": 2,
+            "precio_unitario": 8.50
+        },
+        {
+            "nombre": "Masilla para madera",
+            "unidad": "kg",
+            "cantidad": 1,
+            "precio_unitario": 12.00
+        },
+        {
+            "nombre": "Barniz transparente (base agua)",
+            "unidad": "litro",
+            "cantidad": 3,
+            "precio_unitario": 25.00
+         },
+        {
+            "nombre": "Laca catalizada (brillante)",
+         "unidad": "litro",
+            "cantidad": 2,
+            "precio_unitario": 35.00
+        },
+        {
+        "nombre": "Resina epoxi (transparente)",
+        "unidad": "kg",
+        "cantidad": 1,
+        "precio_unitario": 50.00
+    },
+    {
+        "nombre": "Adhesivo de contacto",
+        "unidad": "litro",
+        "cantidad": 1,
+        "precio_unitario": 15.00
+    },
+    {
+        "nombre": "Silicona neutra (transparente)",
+        "unidad": "tubo",
+        "cantidad": 5,
+        "precio_unitario": 3.50
+    },
+    {
+        "nombre": "Cera para muebles",
+        "unidad": "kg",
+        "cantidad": 1,
+        "precio_unitario": 10.00
+    }
+],
+
         "artefactos_sanitarios": [
             {
                 "nombre": "Accesorios de baño (jabonero, toallero, papelero, perchero)",
@@ -476,58 +391,59 @@ import {
                 "precio": "608.00"
             }
         ],
-        "aridos": [
-            {
-                "nombre": "Arena Fina",
-                "unidad": "m3",
-                "precio": "70.00"
-            },
-            {
-                "nombre": "Arenilla",
-                "unidad": "m3",
-                "precio": "100.00"
-            },
-            {
-                "nombre": "Piedra bola",
-                "unidad": "m3",
-                "precio": "192.00"
-            },
-            {
-                "nombre": "Piedra manzana",
-                "unidad": "m3",
-                "precio": "250.00"
-            },
-            {
-                "nombre": "Piedra pequeña seleccionada 1\"",
-                "unidad": "m3",
-                "precio": "100.00"
-            },
-            {
-                "nombre": "Ripio bruto",
-                "unidad": "m3",
-                "precio": "180.00"
-            },
-            {
-                "nombre": "Ripio chancado",
-                "unidad": "m3",
-                "precio": "230.00"
-            },
-            {
-                "nombre": "Ripio rodado",
-                "unidad": "m3",
-                "precio": "170.00"
-            },
-            {
-                "nombre": "Tierra de relleno",
-                "unidad": "m3",
-                "precio": "60.00"
-            },
-            {
-                "nombre": "Tierra negra",
-                "unidad": "m3",
-                "precio": "140.00"
-            }
-        ],
+        "materiales_estructurales": [
+    {
+        "nombre": "Tablero de MDF 18 mm",
+        "unidad": "pliego",
+        "precio": "35.00"
+    },
+    {
+        "nombre": "Tablero de melamina 15 mm",
+        "unidad": "pliego",
+        "precio": "40.00"
+    },
+    {
+        "nombre": "Tablero de madera sólida (pino)",
+        "unidad": "m2",
+        "precio": "55.00"
+    },
+    {
+        "nombre": "Contrachapado 12 mm",
+        "unidad": "pliego",
+        "precio": "30.00"
+    },
+    {
+        "nombre": "Patas de acero (para mesas)",
+        "unidad": "pieza",
+        "precio": "12.00"
+    },
+    {
+        "nombre": "Perfiles de aluminio para borde",
+        "unidad": "metro",
+        "precio": "8.00"
+    },
+    {
+        "nombre": "Vidrio templado 6 mm",
+        "unidad": "m2",
+        "precio": "50.00"
+    },
+    {
+        "nombre": "Espuma de alta densidad (acolchado)",
+        "unidad": "m2",
+        "precio": "25.00"
+    },
+    {
+        "nombre": "Laminado plástico (formica)",
+        "unidad": "m2",
+        "precio": "20.00"
+    },
+    {
+        "nombre": "Chapas de madera natural",
+        "unidad": "m2",
+        "precio": "15.00"
+    }
+],
+
         "azulejos": [
             {
                 "nombre": "Azulejo blanco de 15x15cm",
@@ -540,150 +456,60 @@ import {
                 "precio": "125.00"
             }
         ],
-        "calaminas": [
-            {
-                "nombre": "Bajante con calamina #28 de 10x15",
-                "unidad": "metro_lineal",
-                "precio": "100.00"
-            },
-            {
-                "nombre": "Calam. Ond. Plast. Nº 16 1.80x0.80",
-                "unidad": "pieza",
-                "precio": "111.20"
-            },
-            {
-                "nombre": "Calam. Ond. Plast. Nº 16 2.40x0.80",
-                "unidad": "pieza",
-                "precio": "142.50"
-            },
-            {
-                "nombre": "Calam. Ond. Plast. Nº12 1.80x0.80",
-                "unidad": "pieza",
-                "precio": "55.50"
-            },
-            {
-                "nombre": "Calam. Ond. Plast. Nº12 2.40x0.80",
-                "unidad": "pieza",
-                "precio": "75.50"
-            },
-            {
-                "nombre": "Calam. Ond. Plast. Nº12 3.00x0.80",
-                "unidad": "pieza",
-                "precio": "98.50"
-            },
-            {
-                "nombre": "Calamina ondulada No28 1.00x2.00",
-                "unidad": "pieza",
-                "precio": "52.53"
-            },
-            {
-                "nombre": "Calamina Ondulada Nº 28 1.80x0.80",
-                "unidad": "pieza",
-                "precio": "65.00"
-            },
-            {
-                "nombre": "Calamina Ondulada Nº 28 2.15x0.80",
-                "unidad": "pieza",
-                "precio": "75.00"
-            },
-            {
-                "nombre": "Calamina Ondulada Nº 28 2.45x0.80",
-                "unidad": "pieza",
-                "precio": "90.00"
-            },
-            {
-                "nombre": "Calamina Ondulada Nº 28 3x0.80",
-                "unidad": "pieza",
-                "precio": "105.00"
-            },
-            {
-                "nombre": "Calamina Ondulada Nº 32 0.90x2.15",
-                "unidad": "pieza",
-                "precio": "42.77"
-            },
-            {
-                "nombre": "Calamina Ondulada Nº 32 1.80x0.90",
-                "unidad": "pieza",
-                "precio": "36.13"
-            },
-            {
-                "nombre": "Calamina Ondulada Nº 32 2.45x0.90",
-                "unidad": "pieza",
-                "precio": "48.50"
-            },
-            {
-                "nombre": "Calamina Ondulada Nº 33 1.80x0.70",
-                "unidad": "pieza",
-                "precio": "28.35"
-            },
-            {
-                "nombre": "Calamina Ondulada Nº 33 1.80x0.80",
-                "unidad": "pieza",
-                "precio": "29.00"
-            },
-            {
-                "nombre": "Calamina Ondulada Nº 33 2.15x0.80",
-                "unidad": "pieza",
-                "precio": "33.50"
-            },
-            {
-                "nombre": "Calamina Ondulada Nº 33 2.45x0.80",
-                "unidad": "pieza",
-                "precio": "38.50"
-            },
-            {
-                "nombre": "Calamina Ondulada Nº 33 3x0.80",
-                "unidad": "pieza",
-                "precio": "47.00"
-            },
-            {
-                "nombre": "Calamina Plana Nº 26 2x1",
-                "unidad": "pieza",
-                "precio": "95.00"
-            }
-        ],
-        "cañerias_y_tuberias_pvc": [
-            {
-                "nombre": "Tubo de PVC de 1 1\/2 pulg",
-                "unidad": "metro_lineal",
-                "precio": "10.00"
-            },
-            {
-                "nombre": "Tubo de PVC de 1 pulg",
-                "unidad": "metro_lineal",
-                "precio": "3.60"
-            },
-            {
-                "nombre": "Tubo de PVC de 2 1\/2 pulg",
-                "unidad": "metro_lineal",
-                "precio": "10.00"
-            },
-            {
-                "nombre": "Tubo de PVC de 2 pulg",
-                "unidad": "metro_lineal",
-                "precio": "7.80"
-            },
-            {
-                "nombre": "Tubo de PVC de 3 pulg L=4.00",
-                "unidad": "pieza",
-                "precio": "53.00"
-            },
-            {
-                "nombre": "Tubo de PVC de 4 pulg L=4.00",
-                "unidad": "pieza",
-                "precio": "76.50"
-            },
-            {
-                "nombre": "Tubo de PVC de 5 pulg L=6.00m",
-                "unidad": "pieza",
-                "precio": "226.00"
-            },
-            {
-                "nombre": "Tubo de PVC de 6 pulg L=6.00",
-                "unidad": "pieza",
-                "precio": "324.98"
-            }
-        ],
+        
+        "herrajes_y_componentes": [
+        {
+         "nombre": "Riel telescópico para cajones de 14\"",
+         "unidad": "par",
+         "precio": "8.50"
+        },
+        {
+            "nombre": "Riel telescópico para cajones de 18\"",
+            "unidad": "par",
+            "precio": "12.00"
+        },
+        {
+            "nombre": "Soporte metálico en L (3x3 cm)",
+            "unidad": "pieza",
+            "precio": "0.80"
+        },
+        {
+            "nombre": "Soporte metálico en L (5x5 cm)",
+            "unidad": "pieza",
+            "precio": "1.50"
+        },
+        {
+            "nombre": "Bisagra de cazoleta (recta)",
+            "unidad": "pieza",
+            "precio": "2.00"
+        },
+        {
+            "nombre": "Bisagra de cazoleta (curva)",
+            "unidad": "pieza",
+            "precio": "2.50"
+        },
+        {
+            "nombre": "Tubo redondo de acero cromado 1\" (para colgadores)",
+            "unidad": "metro",
+            "precio": "10.00"
+        },
+    {
+        "nombre": "Tubo cuadrado de acero cromado 1x1\"",
+        "unidad": "metro",
+        "precio": "12.00"
+    },
+    {
+        "nombre": "Conector plástico para tubo redondo 1\"",
+        "unidad": "pieza",
+        "precio": "1.20"
+    },
+    {
+        "nombre": "Pata niveladora para muebles (regulable)",
+        "unidad": "pieza",
+        "precio": "1.80"
+    }
+],
+
         "carpinteria_de_aluminio": [
             {
                 "nombre": "Box de baño con aluminio y acrílico",
@@ -803,115 +629,64 @@ import {
                 "precio": "1,400.00"
             }
         ],
-        "ceramicos": [
-            {
-                "nombre": "Celosía cerámica",
-                "unidad": "pieza",
-                "precio": "1.80"
-            },
-            {
-                "nombre": "Cerámica picada",
-                "unidad": "m2",
-                "precio": "7.30"
-            },
-            {
-                "nombre": "Cerámica roja 7x15",
-                "unidad": "m2",
-                "precio": "35.00"
-            },
-            {
-                "nombre": "Ladrillo adobito",
-                "unidad": "pza",
-                "precio": "0.65"
-            },
-            {
-                "nombre": "Ladrillo Ceramico de 21 H esp visto",
-                "unidad": "pieza",
-                "precio": "1.31"
-            },
-            {
-                "nombre": "Ladrillo Ceramico de 6 H tabique",
-                "unidad": "pieza",
-                "precio": "1.20"
-            },
-            {
-                "nombre": "Ladrillo gambote",
-                "unidad": "pieza",
-                "precio": "1.16"
-            },
-            {
-                "nombre": "Ladrillo refractario",
-                "unidad": "m2",
-                "precio": "120.00"
-            },
-            {
-                "nombre": "Pieza de celosía ceramica",
-                "unidad": "pieza",
-                "precio": "1.20"
-            },
-            {
-                "nombre": "Revestimiento cerámica esmaltada",
-                "unidad": "m2",
-                "precio": "65.00"
-            },
-            {
-                "nombre": "Teja colonial",
-                "unidad": "pieza",
-                "precio": "2.30"
-            }
-        ],
-        "cerrajeria": [
-            {
-                "nombre": "Baranda de tubo metálico h=90cm",
-                "unidad": "metro_lineal",
-                "precio": "354.20"
-            },
-            {
-                "nombre": "Churrasquera",
-                "unidad": "pza",
-                "precio": "949.90"
-            },
-            {
-                "nombre": "Electródo AWS 6013",
-                "unidad": "Kg",
-                "precio": "23.00"
-            },
-            {
-                "nombre": "Escalera caracol metálica con peldaños de madera H=2.6 R=0.8",
-                "unidad": "pieza",
-                "precio": "2,067.20"
-            },
-            {
-                "nombre": "Parrilla para churrasquera",
-                "unidad": "pieza",
-                "precio": "949.90"
-            },
-            {
-                "nombre": "Puerta metalica arrollable",
-                "unidad": "m2",
-                "precio": "420.00"
-            },
-            {
-                "nombre": "Reja de protección de fierro",
-                "unidad": "m2",
-                "precio": "402.50"
-            },
-            {
-                "nombre": "Reja de protección de fierro angular",
-                "unidad": "m2",
-                "precio": "380.00"
-            },
-            {
-                "nombre": "Tinglado metálico",
-                "unidad": "m2",
-                "precio": "350.00"
-            },
-            {
-                "nombre": "Verja metálica de tubo cuadrado",
-                "unidad": "m2",
-                "precio": "420.00"
-            }
-        ],
+        "acabados_y_revestimientos": [
+    {
+        "nombre": "Chapa de madera natural (roble)",
+        "unidad": "m2",
+        "precio": "25.00"
+    },
+    {
+        "nombre": "Laminado plástico (formica) liso",
+        "unidad": "m2",
+        "precio": "15.00"
+    },
+    {
+        "nombre": "Laminado plástico (formica) texturizado",
+        "unidad": "m2",
+        "precio": "20.00"
+    },
+    {
+        "nombre": "Vinilo adhesivo decorativo",
+        "unidad": "rollo",
+        "precio": "10.00"
+    },
+    {
+        "nombre": "Vidrio templado opaco 6 mm",
+        "unidad": "m2",
+        "precio": "50.00"
+    },
+    {
+        "nombre": "Espejo de 4 mm",
+        "unidad": "m2",
+        "precio": "30.00"
+    },
+    {
+        "nombre": "Pintura mate para madera",
+        "unidad": "litro",
+        "precio": "18.00"
+    },
+    {
+        "nombre": "Barniz transparente brillante",
+        "unidad": "litro",
+        "precio": "25.00"
+    },
+    {
+        "nombre": "Laca acrílica (color personalizada)",
+        "unidad": "litro",
+        "precio": "35.00"
+    },
+    {
+        "nombre": "Tapiz de tela (para muebles)",
+        "unidad": "metro",
+        "precio": "12.00"
+    },
+    {
+        "nombre": "Cuero sintético",
+        "unidad": "metro",
+        "precio": "20.00"
+    }
+],
+
         "cielo_falso": [
             {
                 "nombre": "Cielo falso de yeso aprensado",
@@ -2054,12 +1829,12 @@ import {
         {
           "descripcion": "Ayudante",
           "unidad": "dia",
-          "precio": 100.00
+          "precio": 50.00
         },
         {
           "descripcion": "Ayudante (carpintero)",
           "unidad": "dia",
-          "precio": 100.00
+          "precio": 50.00
         },
         {
           "descripcion": "Ayudante (cerrajero)",
