@@ -11,4 +11,9 @@ export class SeedController {
   executeSeed() {
     return this.seedService.runSeed();
   }
+
+  @Get('hello')
+  hello() {
+    return this.seedService.sayHello();
+  }
 }
