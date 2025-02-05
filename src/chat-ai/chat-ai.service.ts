@@ -15,7 +15,8 @@ import {
   import axios from 'axios';
   import { CreateDto } from './dto/create.dto';
   import { CloudinaryService } from '../cloudinary/cloudinary.service';
-  
+  //Esto solo es un comentario
+  //Esto es otro comentario de prueba
   interface TrainingResponse {
     message: string;
   }

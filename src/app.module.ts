@@ -32,7 +32,7 @@ import { AsesorModule } from './asesor/asesor.module';
       autoLoadEntities: true,
       synchronize: true, //talvez no convenga que esté en true en produccion
       //porque en produccion mas que todo modificamos con migraciones, esto 
-      //podemos manejar tambien con variables de entorno
+      //podemos manejar tambien con variables de entorno.....
     }),
     AuthModule,
     CommonModule,

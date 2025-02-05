@@ -62,4 +62,9 @@ export class SeedService {
     }
 
   }
+
+  //funcion para mostrar un hello wolrd
+  sayHello() {
+    return 'Hola mundo';
+  }
 }
